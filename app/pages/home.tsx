@@ -32,11 +32,11 @@ export default function Home({ loaderData }: { loaderData: Participant[] }) {
       <div className="text-center mb-10">
         <h1 className="inline-block text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text p-2 rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
           <span className="block text-2xl">Welcome to</span>
-          <span className="block text-5xl">Future Conf 4th</span>
+          <span className="block text-5xl">Future Conf 5th</span>
         </h1>
       </div>
       <p className="text-center text-gray-600 mb-8">
-        We are the future! 퓨쳐콘 4번째 행사에 오신 것을 환영합니다 🎉
+        We are the future! 퓨쳐콘 5번째 행사에 오신 것을 환영합니다 🎉
       </p>
       <ArrivalTimeline participants={loaderData} />
       <input
